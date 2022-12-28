@@ -1,0 +1,32 @@
+name: Update that menu!
+
+on: push
+
+jobs:
+  generate_menu_job:
+    runs-on: ubuntu-latest
+    name: A job to generate menu pdf on push
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Run menu generation
+      uses: ./menu # Uses an action in the root directory
+
+    - name: Commit files
+      id: commit
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "github-actions"
+        git add --all
+        if [-z "$(git status --porcelain)"]; then
+           echo "::set-output name=push::false"
+        else
+           git commit -m "Updated Resume via GH Actions." -a
+           echo "::set-output name=push::true"
+        fi
+      shell: bash
+    - name: Push changes
+      if: steps.commit.outputs.push == 'true'
+      uses: ad-m/github-push-action@master
+      with:
+         github_token: ${{ secrets.GITHUB_TOKEN }}
