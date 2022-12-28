@@ -8,4 +8,4 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/sh", "-c", "xelatex -output-directory=out menu/menu.tex"]
+ENTRYPOINT [ "/bin/sh", "-c", "xelatex -output-directory=menu/out menu/menu.tex"]
