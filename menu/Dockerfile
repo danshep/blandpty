@@ -1,11 +1,8 @@
-FROM ubuntu:latest
+FROM blang/latex:ubuntu
 
 RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
-    && echo "Etc/UTC" > /etc/timezone \
-    && apt-get update && apt-get upgrade -y \
-    && apt-get install texlive-latex-base texlive-xetex texlive-latex-extra texlive-fonts-recommended xzdec -y \
-    && rm -rf /var/lib/apt/lists/*
+    && echo "Etc/UTC" > /etc/timezone 
 
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/sh", "-c", "xelatex -output-directory=menu/out menu/menu.tex"]
+ENTRYPOINT [ "/bin/sh", "-c", "pdflatex -output-directory=menu/out menu/menu.tex"]
