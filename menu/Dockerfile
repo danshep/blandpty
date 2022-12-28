@@ -5,4 +5,4 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime \
 
 WORKDIR /data
 
-ENTRYPOINT [ "/bin/sh", "-c", "pdflatex -output-directory=menu/out menu/menu.tex"]
+ENTRYPOINT [ "/bin/sh", "-c", "cd menu && pdflatex -output-directory=out menu.tex"]
