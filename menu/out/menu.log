@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  28 DEC 2022 04:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  14 JAN 2023 05:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,28 +771,30 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks34
 \c@AM@survey=\count118
 \AM@templatesizebox=\box40
+) (out/menu.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
-No file menu.aux.
 \openout1 = `menu.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 144.
-LaTeX Font Info:    ... okay on input line 144.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 144.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 148.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
-LaTeX Info: Redefining \. on input line 144.
-LaTeX Info: Redefining \% on input line 144.
+LaTeX Info: Redefining \. on input line 148.
+LaTeX Info: Redefining \% on input line 148.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -887,9 +889,9 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package crop Info: requested driver: `' on input line 144.
-Package crop Info: detected driver: `pdftex' on input line 144.
-Package crop Info: using `pdftex' graphics driver on input line 144.
+Package crop Info: requested driver: `' on input line 148.
+Package crop Info: detected driver: `pdftex' on input line 148.
+Package crop Info: using `pdftex' graphics driver on input line 148.
 
 ABD: EveryShipout initializing macros
 \big@size=\dimen168
@@ -903,97 +905,88 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 157.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 161.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 157
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 161
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 157
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 161
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 157
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 161
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 157
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 161
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
-LaTeX Font Info:    Try loading font information for T1+qzc on input line 158.
+LaTeX Font Info:    Try loading font information for T1+qzc on input line 162.
 
 (/usr/share/texmf/tex/latex/tex-gyre/t1qzc.fd
 File: t1qzc.fd 2009/09/25 v1.2 font definition file for T1/qzc
 )
 
 LaTeX Font Warning: Font shape `T1/qzc/m/n' in size <12> not available
-(Font)              Font shape `T1/qzc/m/it' tried instead on input line 158.
+(Font)              Font shape `T1/qzc/m/it' tried instead on input line 162.
 
 <Glasses/weizen.png, id=4, 170.88844pt x 385.44pt>
 File: Glasses/weizen.png Graphic file (type png)
  <use Glasses/weizen.png>
-Package pdftex.def Info: Glasses/weizen.png used on input line 158.
+Package pdftex.def Info: Glasses/weizen.png used on input line 162.
 (pdftex.def)             Requested size: 11.38109pt x 25.66614pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 159.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <6> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 159.
-
-Overfull \hbox (5.11992pt too wide) in alignment at lines 157--165
-[][] [] []
- []
-
-LaTeX Font Info:    Try loading font information for T1+custom on input line 17
-1.
-(./t1custom.fd
-File: t1custom.fd 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
-
-LaTeX Font Warning: Font shape `T1/custom/xl/n' undefined
-(Font)              using `T1/custom/m/n' instead on input line 171.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 163.
 
 [1
 
- <./Glasses/weizen.png>]
-<Glasses/fridge.png, id=15, 225.84375pt x 225.84375pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Glasses/weizen.png>]
+<Glasses/fridge.png, id=14, 225.84375pt x 225.84375pt>
 File: Glasses/fridge.png Graphic file (type png)
 
 <use Glasses/fridge.png>
-Package pdftex.def Info: Glasses/fridge.png used on input line 174.
+Package pdftex.def Info: Glasses/fridge.png used on input line 176.
 (pdftex.def)             Requested size: 21.33955pt x 21.33821pt.
  [2 <./Glasses/fridge.png>]
-<Glasses/wine.png, id=20, 203.25937pt x 385.44pt>
+<Glasses/wine.png, id=19, 203.25937pt x 385.44pt>
 File: Glasses/wine.png Graphic file (type png)
  <use Glasses/wine.png>
-Package pdftex.def Info: Glasses/wine.png used on input line 190.
+Package pdftex.def Info: Glasses/wine.png used on input line 193.
 (pdftex.def)             Requested size: 12.80373pt x 24.27814pt.
 
-<Glasses/martini.png, id=21, 326.72063pt x 385.44pt>
+[3 <./Glasses/wine.png>] <Glasses/martini.png, id=24, 326.72063pt x 385.44pt>
 File: Glasses/martini.png Graphic file (type png)
- <use Glasses/martini.png>
+
+<use Glasses/martini.png>
 Package pdftex.def Info: Glasses/martini.png used on input line 211.
 (pdftex.def)             Requested size: 19.91692pt x 23.49593pt.
 
-<Glasses/flute.png, id=22, 141.328pt x 411.136pt>
+<Glasses/old_fashioned.png, id=25, 236.00034pt x 233.95882pt>
+File: Glasses/old_fashioned.png Graphic file (type png)
+
+<use Glasses/old_fashioned.png>
+Package pdftex.def Info: Glasses/old_fashioned.png used on input line 214.
+(pdftex.def)             Requested size: 17.07164pt x 16.92142pt.
+
+<Glasses/flute.png, id=26, 141.328pt x 411.136pt>
 File: Glasses/flute.png Graphic file (type png)
  <use Glasses/flute.png>
 Package pdftex.def Info: Glasses/flute.png used on input line 217.
 (pdftex.def)             Requested size: 8.53581pt x 24.8302pt.
-
-<Glasses/old_fashioned.png, id=23, 236.00034pt x 233.95882pt>
 File: Glasses/old_fashioned.png Graphic file (type png)
 
 <use Glasses/old_fashioned.png>
@@ -1003,35 +996,36 @@ File: Glasses/old_fashioned.png Graphic file (type png)
  <use Glasses/old_fashioned.png>
 Package pdftex.def Info: Glasses/old_fashioned.png used on input line 223.
 (pdftex.def)             Requested size: 17.07164pt x 16.92142pt.
- [3 <./Glasses/wine.png>] [4 <./Glasses/martini.png> <./Glasses/flute.png> <./G
-lasses/old_fashioned.png>] (out/menu.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+File: Glasses/old_fashioned.png Graphic file (type png)
+
+<use Glasses/old_fashioned.png>
+Package pdftex.def Info: Glasses/old_fashioned.png used on input line 226.
+(pdftex.def)             Requested size: 17.07164pt x 16.92142pt.
+ [4 <./Glasses/martini.png> <./Glasses/old_fashioned.png> <./Glasses/flute.png>
+] (out/menu.aux
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 )
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15031 strings out of 493029
- 283578 string characters out of 6136234
- 352916 words of memory out of 5000000
- 18223 multiletter control sequences out of 15000+600000
- 29089 words of font info for 62 fonts, out of 8000000 for 9000
+ 15015 strings out of 493029
+ 283278 string characters out of 6136234
+ 351463 words of memory out of 5000000
+ 18211 multiletter control sequences out of 15000+600000
+ 27498 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,56p,444b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/ttf2pk/base/T1-WGL4.enc}<custom.ttf></usr/share/texlive/
-texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/palatino/uplri8a.pfb>
-Output written on out/menu.pdf (4 pages, 108013 bytes).
+ 62i,14n,56p,444b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/urw/palatino/uplri8a.pfb>
+Output written on out/menu.pdf (4 pages, 103497 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
+ 46 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
