@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% Print Document to 120% Scale %%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[textwidth=12cm,centering]{geometry}
+\usepackage[x11names]{xcolor}
+\usepackage[a5,center,noinfo,width=18cm,height=23cm]{crop}
+\usepackage{background,mathpazo,pdfpages,tikz}
+
+\newcommand*\wb[3]{%
+  {\fontsize{#1}{#2}\usefont{T1}{custom}{xl}{n}#3}}
+
+% The page frame
+\SetBgColor{SpringGreen4}
+\SetBgAngle{0}
+\SetBgScale{1}
+\SetBgContents{%
+%\begin{tikzpicture}
+%\node at (0.5\paperwidth,0) {\wb{80}{34}{E}\rule[55pt]{.7\textwidth}{0.4pt}%
+ % \raisebox{50pt}{%
+%  }%
+%  \rule[55pt]{.3\textwidth}{0.4pt}\wb{80}{34}{F}};
+%\node at (2.4,-0.5\textheight) {\rule{0.4pt}{.82\textheight}};
+%\node at (19.1,-0.5\textheight) {\rule{0.4pt}{.82\textheight}};
+%\node at (0.5\paperwidth,-\textheight) {\wb{80}{80}{G}\rule[-10pt]{\textwidth}{0.4pt}\wb{80}{34}{H}} ;
+%\end{tikzpicture}%%
+}
+
+% colorize text
+\newcommand*\ColText[1]{\textcolor{SpringGreen4}{#1}}
+
+\newcommand*\GroupTitle[1]{%
+   \multicolumn{2}{l}{\fontsize{20}{29}\selectfont\ColText{#1}}\\[0.8em]}
+
+\newcommand*\GroupGlassTitle[2]{%
+  \noalign{\vspace{2em}}
+  \fontfamily{qzc}\selectfont #2 & \vspace{1em}\fontsize{20}{29}\selectfont\ColText{#1}}
+
+% a tabular* for each drink group
+\newenvironment{Group}
+  {\vspace{2em}\noindent\begin{tabular*}{\textwidth}{@{} p{10mm} l@{\extracolsep{\fill}} r@{\hspace{1em}} r@{}}} %Change the number before \linewidth to allow text to extend further}
+  {\end{tabular*}}
+
+
+% to format each entry
+\newcommand*\Entry[2]{%
+  \noalign{\vspace{2em}}
+  \vspace{0.5mm} % if you uncomment this line, change the Glass yshift to -4mm (idk why such difference)
+  \fontfamily{qzc}\selectfont #2 & #1 \tiny\dotfill}
+
+% to format each entry
+\newcommand*\Cocktail[3]{%
+  \noalign{\vspace{2em}}
+  \vspace{0.5mm} % if you uncomment this line, change the Glass yshift to -4mm (idk why such difference)
+  \fontfamily{qzc}\selectfont #2 & #1 \tiny\dotfill & \tiny\dotfill & \normalsize \$#3}
+
+% to format each entry
+\newcommand*\Booze[3]{%
+  \noalign{\vspace{1em}}
+  %\vspace{0.5mm} % if you uncomment this line, change the Glass yshift to -4mm (idk why such difference)
+  %\multicolumn{2}{l}\fontfamily{qzc}\selectfont #1 \tiny\dotfill & \tiny #2\% ABV \dotfill & \normalsize #3}
+  %{} & #1 \tiny\dotfill & \scriptsize #2 \% \tiny\dotfill & \normalsize \$#3}
+  \multicolumn{2}{l}{ #1 \tiny\dotfill } & \scriptsize #2 \% \tiny\dotfill & \normalsize \$#3}
+
+\newcommand*\Beer[5]{%
+  \noalign{\vspace{2em}}
+  \Booze{#1}{#3}{#4\tiny/pot} \\
+  \multicolumn{2}{l}{ \hspace*{0.1em} \scriptsize #2 } & {} & \normalsize \$#5\tiny/pint}
+
+\newcommand*\Wine[5]{%
+  \noalign{\vspace{0.5em}}
+  \Booze{#1}{#3}{#4\tiny/glass} \\
+  \multicolumn{2}{l}{ \hspace*{0.1em} \scriptsize #2 } & {} & \normalsize \$#5\tiny/bottle}
+
+% to format each subentry
+\newcommand*\Expl[1]{%
+  {} & \hspace*{0.1em} \scriptsize #1}
+  
+  
+\newcommand*\Glass[2]{%
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[xshift=5mm,yshift=0mm]{%
+            \includegraphics[width=#2]{Glasses/#1.png}
+        };
+    \end{tikzpicture}%
+}
+
+\newcommand*\GlassCordial{%
+    \Glass{cordial}{3mm}}
+
+\newcommand*\GlassCoupe{%
+    \Glass{coupe}{6mm}}
+
+\newcommand*\GlassFlute{%
+    \Glass{flute}{3mm}}
+
+\newcommand*\GlassGlencairn{%
+    \Glass{glencairn}{4mm}}
+
+\newcommand*\GlassGoblet{%
+    \Glass{goblet}{5mm}}
+
+\newcommand*\GlassHighball{%
+    \Glass{highball}{6mm}}
+
+\newcommand*\GlassHurricane{%
+    \Glass{hurricane}{5mm}}
+
+\newcommand*\GlassIrishCoffee{%
+    \Glass{irish_coffee}{7.5mm}}
+
+\newcommand*\GlassMargarita{%
+    \Glass{margarita}{7.5mm}}
+
+\newcommand*\GlassMartini{%
+    \Glass{martini}{7mm}}
+
+\newcommand*\GlassMug{%
+    \Glass{mug}{7.5mm}}
+
+\newcommand*\GlassMugHot{%
+    \Glass{mug_hot}{7.5mm}}
+
+\newcommand*\GlassOldFashioned{%
+    \Glass{old_fashioned}{6mm}}
+
+\newcommand*\GlassShooter{%
+    \Glass{shooter}{3mm}}
+
+\newcommand*\GlassSnifter{%
+    \Glass{snifter}{5mm}}
+
+\newcommand*\GlassWeizen{%
+    \Glass{weizen}{4mm}}
+
+\newcommand*\GlassWine{%
+    \Glass{wine}{4.5mm}}
+
+\newcommand*\GlassFridge{%
+    \Glass{fridge}{7.5mm}}
+
+\pagestyle{empty}
+
+\begin{document}
+
+%Cover page
+%\includepdf[pages=1,noautoscale]{coverpage}
+%\newpage
+
+%\centering{\Huge{\textcolor{Goldenrod3}{Boisson du Jour}}}
+%\hfill\vfill
+%\begin{center}
+%    Drinks marked with a ``$\diamond$'' require significant preparation time or ingredients that may not be available without prior notice.
+%\end{center}
+%\newpage
+
+<%- pages.each do |page| -%>
+\begin{Group}
+    <%- if page.icon -%>
+    \GroupGlassTitle{<%=page.title%>}{\<%=page.icon%>} \\
+    <%- else -%>
+    \GroupTitle{Cocktails}
+    <%- end -%>
+    <%- page.items.each do |item| -%>
+    <%= item.tex_output %> \\
+    <%- end -%>
+\end{Group}
+\vfill
+\begin{center}
+	<%= page.footer %>
+\end{center}
+\pagebreak
+<%- end -%>
+
+\end{document}

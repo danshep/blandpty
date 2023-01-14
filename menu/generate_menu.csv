@@ -1,0 +1,42 @@
+﻿,Page: Tap Beer,Description,ABV,Pot,Pint
+,Daydream *Session Ale*,The Mill - Collingwood,4.6,7,14
+,Blinker *Dark Ale*,Bodriggy - Abbotsford,5.2,6,10
+,The Renegade *WC IPA*,Co-Conspirators - Brunswick,6.8,8,16
+,The Beekeeper *Choc Honeycomb Porter*,Co-Conspirators - Brunswick,5.2,8,16
+,The Wheelman *Raspberry Gose*,Co-Conspirators - Brunswick,4.2,8,16
+x,"Beneath the Trees, We Gather *Yuzu & Plum Sour*",Hawkers - Reservoir,7,8.5,17
+,Miss Pinky *Raspberry Berliner Weisse*,Boatrocker - Braeside,3.4,7,14
+,Footer: Creature supports local independent brewers.,,,,
+,,,,,
+,Page: From The Fridge,,ABV,Item,
+,Melbourne Bitter,,4.6,8,
+,Bodriggy Speccy Juice *Hazy Session IPA*,,3.5,10,
+,Stomping Ground *Pale Ale*,,5.2,12,
+,Stomping Ground *Passionfruit Smash Sour*,,4.2,11,
+,Lick Pier *Alcoholic Ginger Beer*,,4,14,
+,Sopra Sicilian *Blood Orange Seltzer*,,4.5,12,
+,Sopra Sicilian *Limoncello Seltzer*,,4.5,12,
+,Hop Nation Mind Ya Head *Non Alcoholic XPA*,,< 0.5,7,
+,Young Henry's *Cloudy Cider*,,4.6,10,
+,Footer: Missing something? Let us know what we can throw in the fridge for you.,,,,
+,,,,,
+,Page: Wine,,ABV,Glass,Bottle
+,Puncheon Darts *Prosecco*,"King Valley, Victoria",10,12,42
+,Tharsys Cava Brut Nature,"Valencia, Spain",11.5,16,50
+,Lighthand *Chardonnay*,"Yarra Valley, Victoria",12.5,13,45
+,Guy Allion *Sauvignon Blanc*,"Loire Valley, France",12,13,45
+,Continental Platter Delirium *Orange*,"Riverland, South Australia",12.4,12,42
+,Continental Platter *Rosé*,"Margaret River, Western Australia",12,12,42
+,Quin Everyday Explorer Mataro *Rosé*,"Barossa Valley, South Australia",12.5,13,45
+,Ciello Rossa *Nero d'Avalo*,"Alcamo, Sicily",12.5,13,45
+,Continental Platter *Shiraz*,"Barossa Valley, South Australia",13.5,12,42
+,Footer: We love and stock minimal intervention wines,,,,
+,,,,,
+,Page: Cocktails,Ingredients,Price,Icon,Description
+,Elm Street *Espresso Martini*,"Mr Black Espresso Liquer, Vodka, Cold Brew Espresso",20,GlassMartini,"Whatever you do, don't fall asleep"
+,Sasquatch *Maple Old Fashioned*,"Bourbon, Bitters, Maple Syrup, Orange Twist, Cherry",20,GlassOldFashioned,Mr. Henderson's Favourite Tipple
+,Putting on the *Spritz*,"Prosecco, Pampelle Grapefruit Liquer",16,GlassFlute,It's super-duper
+,Giallo *Negroni*,"Campari, Gin, Vermouth",20,GlassOldFashioned,The perfect drink for the girl who knows too much
+,Anaconda *Pisco Sour*,"Pisco, Lemon, Lime, Bitters",20,GlassOldFashioned,It will take your breath away
+,Chupacabra *Spicy Margarita*,"Mezcal, Lime, Agave, Chili Rim",20,GlassOldFashioned,Don't fear its bite
+,Footer: Mocktails? We also have some non-alcoholic spirits.,,,,

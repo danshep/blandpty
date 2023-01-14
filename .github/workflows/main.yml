@@ -9,7 +9,12 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Run menu generation
+    - name: Ruby Generation
+      run: |
+        cd menu
+        ruby generate_menu.rb
+      shell: bash
+    - name: PDF Generation
       uses: ./menu # Uses an action in the root directory
 
     - name: Commit files
