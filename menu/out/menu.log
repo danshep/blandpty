@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  14 JAN 2023 05:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  14 JAN 2023 07:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,8 +772,8 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count118
 \AM@templatesizebox=\box40
 ) (out/menu.aux
-LaTeX Info: Redefining \. on input line 8.
-LaTeX Info: Redefining \% on input line 8.
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
 )
 \openout1 = `menu.aux'.
 
@@ -1002,7 +1002,21 @@ File: Glasses/old_fashioned.png Graphic file (type png)
 Package pdftex.def Info: Glasses/old_fashioned.png used on input line 226.
 (pdftex.def)             Requested size: 17.07164pt x 16.92142pt.
  [4 <./Glasses/martini.png> <./Glasses/old_fashioned.png> <./Glasses/flute.png>
-] (out/menu.aux
+]
+<Glasses/glencairn.png, id=34, 205.76875pt x 340.27126pt>
+File: Glasses/glencairn.png Graphic file (type png)
+
+<use Glasses/glencairn.png>
+Package pdftex.def Info: Glasses/glencairn.png used on input line 236.
+(pdftex.def)             Requested size: 11.38109pt x 18.81621pt.
+ [5 <./Glasses/glencairn.png>]
+<Glasses/highball.png, id=39, 270.25969pt x 385.44pt>
+File: Glasses/highball.png Graphic file (type png)
+
+<use Glasses/highball.png>
+Package pdftex.def Info: Glasses/highball.png used on input line 256.
+(pdftex.def)             Requested size: 17.07164pt x 24.34283pt.
+ [6 <./Glasses/highball.png>] (out/menu.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 )
@@ -1011,10 +1025,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15015 strings out of 493029
- 283278 string characters out of 6136234
- 351463 words of memory out of 5000000
- 18211 multiletter control sequences out of 15000+600000
+ 15029 strings out of 493029
+ 283591 string characters out of 6136234
+ 351361 words of memory out of 5000000
+ 18223 multiletter control sequences out of 15000+600000
  27498 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,14n,56p,444b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1022,10 +1036,10 @@ Here is how much of TeX's memory you used:
 e/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /urw/palatino/uplri8a.pfb>
-Output written on out/menu.pdf (4 pages, 103497 bytes).
+Output written on out/menu.pdf (6 pages, 117427 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
