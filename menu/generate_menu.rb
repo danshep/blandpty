@@ -4,11 +4,11 @@ require 'erb'
 class Page
   attr_reader :title, :items
   attr_accessor :footer
+  attr_accessor :icon  
   def initialize(title)
     @title = title
     @items = []
   end
-  def icon; nil; end
   def self.new_page(title)
     case title
     when 'Tap Beer'
@@ -20,7 +20,7 @@ class Page
     when 'Cocktails'
       CocktailPage.new(title)
     else 
-      raise title
+      SpiritPage.new(title)
     end
   end
 end
@@ -37,7 +37,7 @@ class BoozeItem
   end
   def abv
     if /^\d+(?:\.\d+)?$/ === @abv
-      "%0.02f" % @abv
+      "%0.01f" % @abv
     else
       @abv
     end
@@ -45,7 +45,6 @@ class BoozeItem
 end
 
 class BeerPage < Page
-  def icon; 'GlassWeizen'; end
   def add_item(*args)
     items << BeerItem.new(*args)
   end
@@ -61,7 +60,6 @@ class BeerItem < BoozeItem
 end
 
 class FridgePage < Page
-  def icon; 'GlassFridge'; end
   def add_item(*args)
     items << FridgeItem.new(*args)
   end  
@@ -77,7 +75,6 @@ class FridgeItem < BoozeItem
 end
 
 class WinePage < Page
-  def icon; 'GlassWine'; end
   def add_item(*args)
     items << WineItem.new(*args)
   end
@@ -108,6 +105,27 @@ class CocktailItem < BoozeItem
   end
 end
 
+class SpiritPage < Page
+  def add_item(*args)
+    items << SpiritItem.new(*args)
+  end
+end
+
+class SpiritItem < BoozeItem
+  def initialize(name, description, abv, price, *_)
+    @name, @description, @abv, @price = name, description, abv, price
+  end
+  def tex_output
+    output = "\\Booze{#{tex_name}}{#{abv}}{#{@price}}"
+    unless @description.nil? || @description.empty?
+      output += "\\\\\n    \\Expl{\\it #{@description}}"
+    end
+    output
+  end
+end
+
+
+
 pages = []
 
 CSV.open('generate_menu.csv').each do |row|
@@ -115,10 +133,13 @@ CSV.open('generate_menu.csv').each do |row|
   next if row.shift == 'x'
   if /Page: (.*)/ === row.first
     pages << Page.new_page($1)
+    if /Icon: (.*)/ === row[1]
+      pages.last.icon = $1
+    end
   elsif /Footer: (.*)/ === row.first
     pages.last.footer = $1
   else
-    #p row
+    p row
     pages.last.add_item(*row)
   end
 end

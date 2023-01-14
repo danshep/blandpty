@@ -1,4 +1,4 @@
-﻿,Page: Tap Beer,Description,ABV,Pot,Pint
+﻿,Page: Tap Beer,Icon: GlassWeizen,ABV,Pot,Pint
 ,Daydream *Session Ale*,The Mill - Collingwood,4.6,7,14
 ,Blinker *Dark Ale*,Bodriggy - Abbotsford,5.2,6,10
 ,The Renegade *WC IPA*,Co-Conspirators - Brunswick,6.8,8,16
@@ -8,7 +8,7 @@ x,"Beneath the Trees, We Gather *Yuzu & Plum Sour*",Hawkers - Reservoir,7,8.5,17
 ,Miss Pinky *Raspberry Berliner Weisse*,Boatrocker - Braeside,3.4,7,14
 ,Footer: Creature supports local independent brewers.,,,,
 ,,,,,
-,Page: From The Fridge,,ABV,Item,
+,Page: From The Fridge,Icon: GlassFridge,ABV,Item,
 ,Melbourne Bitter,,4.6,8,
 ,Bodriggy Speccy Juice *Hazy Session IPA*,,3.5,10,
 ,Stomping Ground *Pale Ale*,,5.2,12,
@@ -20,7 +20,9 @@ x,"Beneath the Trees, We Gather *Yuzu & Plum Sour*",Hawkers - Reservoir,7,8.5,17
 ,Young Henry's *Cloudy Cider*,,4.6,10,
 ,Footer: Missing something? Let us know what we can throw in the fridge for you.,,,,
 ,,,,,
-,Page: Wine,,ABV,Glass,Bottle
+,,,,,
+,,,,,
+,Page: Wine,Icon: GlassWine,ABV,Glass,Bottle
 ,Puncheon Darts *Prosecco*,"King Valley, Victoria",10,12,42
 ,Tharsys Cava Brut Nature,"Valencia, Spain",11.5,16,50
 ,Lighthand *Chardonnay*,"Yarra Valley, Victoria",12.5,13,45
@@ -40,3 +42,22 @@ x,"Beneath the Trees, We Gather *Yuzu & Plum Sour*",Hawkers - Reservoir,7,8.5,17
 ,Anaconda *Pisco Sour*,"Pisco, Lemon, Lime, Bitters",20,GlassOldFashioned,It will take your breath away
 ,Chupacabra *Spicy Margarita*,"Mezcal, Lime, Agave, Chili Rim",20,GlassOldFashioned,Don't fear its bite
 ,Footer: Mocktails? We also have some non-alcoholic spirits.,,,,
+,,,,,
+,Page: Whiskey,Icon: GlassGlencairn,abv,price,
+,Jameson Blended Irish Whiskey,,40,10,
+,Grants Triple Wood Blended Scotch,,43,10,
+,Starward Two-fold Double Grain,,40,12,
+,Chivas Regal 12yo Blended Scotch,,40,12,
+,anCnoc Highland Single Malt 13yo,"vanilla, dark chocolate, oak spices, leather",46,22,
+,Hellyers Road Pinot Noir Cask 16yo,"choc orange, musk sticks, sultanas, bbq pork",46.2,24,
+,Glenmorangie 12 YO Malaga Cask 17yo,"milk chocolate, honeycomb, cinnamon, dried fruits",47.3,25,
+,Ballantines Glenburgie Single Malt 17yo,"red apple, candied orange, custard",48,28,
+,,,,,
+,Page: Gin,Icon: GlassHighball,abv,price,
+,Bombay Sapphire,,47,10,
+,The Botanist,"cool mint, juniper, lemon zest, licorice, birch",46,16,
+,Four Pillars Christmas 2019,"juniper, cinnamon, muscat",43.8,21,
+,Giniversity Barrel Aged,"juniper, coriander, cardamon, citrus, shiraz",49,20,
+,Four Pillars Spice Trade Gin,"macadamia, cashew, szechuan, lime, tumeric",43.5,17,
+,Hartsthorn Sheep's Whey Gin,"creamy velvet, brown sugar, pear, apple, leather",40,17,
+,Reed & Co Neo Dry Gin,"juniper, yuzu, citrus, tea, shiso",44,17,

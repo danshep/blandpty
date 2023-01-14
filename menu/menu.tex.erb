@@ -163,7 +163,7 @@
     <%- if page.icon -%>
     \GroupGlassTitle{<%=page.title%>}{\<%=page.icon%>} \\
     <%- else -%>
-    \GroupTitle{Cocktails}
+    \GroupTitle{<%=page.title%>}
     <%- end -%>
     <%- page.items.each do |item| -%>
     <%= item.tex_output %> \\
