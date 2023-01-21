@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  21 JAN 2023 08:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  21 JAN 2023 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -111,8 +111,7 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks15
 \c@AM@survey=\count91
 \AM@templatesizebox=\box27
-)
-No file menu2.aux.
+) (out/menu2.aux)
 \openout1 = `menu2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -128,7 +127,7 @@ LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 \AtBeginShipoutBox=\box28
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen109
@@ -393,8 +392,8 @@ Package pdftex.def Info: out/menu.pdf, page6 used on input line 5.
  [6 <./out/menu.pdf>]
 (out/menu2.aux) ) 
 Here is how much of TeX's memory you used:
- 2773 strings out of 493029
- 39948 string characters out of 6136234
+ 2775 strings out of 493029
+ 39974 string characters out of 6136234
  105036 words of memory out of 5000000
  6291 multiletter control sequences out of 15000+600000
  3938 words of font info for 15 fonts, out of 8000000 for 9000
@@ -403,7 +402,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on out/menu2.pdf (6 pages, 121223 bytes).
+Output written on out/menu2.pdf (6 pages, 121675 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
